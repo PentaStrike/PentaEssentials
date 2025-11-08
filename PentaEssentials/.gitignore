@@ -7,12 +7,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
-*.DS_Store
-
-.idea/
-
 # Build results
-
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -27,7 +22,6 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-[Pp]ublish/
 
 # .NET Core
 project.lock.json
@@ -41,8 +35,6 @@ ScaffoldingReadMe.txt
 *.nupkg
 # NuGet Symbol Packages
 *.snupkg
-
-
 
 # Others
 ~$*
