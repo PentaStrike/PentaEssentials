@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaEssentials", "PentaEss
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaEssentialsShared", "PentaEssentialsShared\PentaEssentialsShared.csproj", "{86069010-51F3-4C1A-933E-06FD2AD32E1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaReverbTest", "PentaReverbTest\PentaReverbTest.csproj", "{F954C8D0-867C-4396-B6FF-674A837BF4F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{86069010-51F3-4C1A-933E-06FD2AD32E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86069010-51F3-4C1A-933E-06FD2AD32E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86069010-51F3-4C1A-933E-06FD2AD32E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F954C8D0-867C-4396-B6FF-674A837BF4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F954C8D0-867C-4396-B6FF-674A837BF4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F954C8D0-867C-4396-B6FF-674A837BF4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F954C8D0-867C-4396-B6FF-674A837BF4F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

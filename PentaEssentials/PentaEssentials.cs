@@ -4,6 +4,7 @@ using CounterStrikeSharp.API.Core.Capabilities;
 using CounterStrikeSharp.API.Core.Plugin.Host;
 using CounterStrikeSharp.API.Modules.Commands;
 using Microsoft.Extensions.Logging;
+using PentaEssentials.Reverb;
 using PentaEssentialsShared;
 
 namespace PentaEssentials;
@@ -18,12 +19,16 @@ public class PentaEssentials : PentaPlugin
     public override string ModuleDescription => "Essentials plugin";
     
     
-    public override void Load(bool hotReload)
+    public async override void Load(bool hotReload)
     {
         Logger.LogInformation("ⓅⓔⓝⓣⓐⒺⓢⓢⓔⓝⓣⓘⓐⓛⓢ");
         
         Capability.Resolve();
+
+        var pentaR = ((PentaReverb)Capability.PentaReverb.Get());
         
+        await pentaR.ConnectAsync();
+
     }
   
 }

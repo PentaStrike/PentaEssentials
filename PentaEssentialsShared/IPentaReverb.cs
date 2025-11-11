@@ -1,6 +1,11 @@
+using System.Net;
+
+using PusherClient;
 namespace PentaEssentialsShared;
 
-public class IPentaReverb
+public interface IPentaReverb
 {
     
+    
 }
+
